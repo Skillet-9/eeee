@@ -15,7 +15,7 @@ const swaggerOptions = {
             contact: {
                 name: 'Amazing Developer'
             },
-            servers: "http://localhost:3636"
+            servers: "https://app-e3d49375-007f-4282-b424-cd5020e16400.cleverapps.io:3636"
         }
     },
     apis: ["app.js", ".routes/*.js"]

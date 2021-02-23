@@ -3,11 +3,11 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 
 let conn = new Mysqli({
-    Host: 'localhost', // IP/domain name 
+    Host: 'bcbu4d2oyuyvyzo5t9fr-mysql.services.clever-cloud.com', // IP/domain name 
     post: 3306, // port, default 3306 
-    user: 'mega_user', // username 
-    passwd: '123456', // password 
-    db: 'mega_shop'
+    user: 'uiluhklqfto2zc72', // username 
+    passwd: 'cZ9JQe2EWQ5rklbUwVAe', // password 
+    db: 'bcbu4d2oyuyvyzo5t9fr'
 });
 
 let db = conn.emit(false, '');
